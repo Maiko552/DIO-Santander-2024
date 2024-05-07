@@ -10,6 +10,8 @@ public class AgendaContatos {
     public AgendaContatos() {
         this.agendaContatoMap = new HashMap<>();
     }
+
+
     //map para adicionar é put
     public void adicionarContato(String nome, Integer telefone){
         agendaContatoMap.put(nome, telefone);
@@ -43,10 +45,10 @@ public class AgendaContatos {
 
         agendaContatos.exibirContatos();
 
-        System.out.println("Contato removido");
-        agendaContatos.removerContato("Jonathan");
-        agendaContatos.exibirContatos();
-
-        System.out.println("O número é: " + agendaContatos.pesquisarPorNome("Maikon"));
+//        System.out.println("Contato removido");
+//        agendaContatos.removerContato("Jonathan");
+//        agendaContatos.exibirContatos();
+//
+//        System.out.println("O número é: " + agendaContatos.pesquisarPorNome("Maikon"));
     }
 }
